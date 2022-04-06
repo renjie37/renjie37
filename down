@@ -1,0 +1,21 @@
+case "$1" in
+-d)
+
+echo "此功能暂未开放"
+;;
+-w)
+wget http://gitee.com/$2 
+;;
+-h|--help|?)
+echo "人杰工作室"
+echo "制作时间:2021/07/14"
+echo "官网:[http://renjie1.cn]"
+echo "用法:[down [选项] [文件名]"
+echo "-w      从网址下载文件"
+;;
+*)
+
+echo "[-h|--help|?]帮助"
+
+;;
+esac
