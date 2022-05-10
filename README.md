@@ -3,7 +3,7 @@
 
 
  ​ 
-​#下载命令<hr>
+​#下载命令
 ```<hr>
 
  ​git clone git@github.com:FluxionNetwork/fluxion.git 
